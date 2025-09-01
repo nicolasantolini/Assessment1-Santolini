@@ -12,7 +12,7 @@ namespace Assessment1_Santolini.Algorithms
         /// Determines the best neighboring plane to move to based on a scoring system.
         /// </summary>
         /// <remarks>The method evaluates all neighboring planes of the current position and calculates a
-        /// score for each based on the provided <paramref name="scoreCalculator"/> and whether the plane has been
+        /// score for each plane based on the provided <paramref name="scoreCalculator"/> and whether the plane has been
         /// visited during the current path. The plane with the highest score is selected as the best neighbor.</remarks>
         /// <param name="grid">The grid containing the planes and their properties.</param>
         /// <param name="position">The current position as a tuple of x and y coordinates.</param>
