@@ -35,7 +35,7 @@ namespace Assessment1_Santolini.Algorithms
                 bool isUnexplored = !locallyVisited[neighbor.y, neighbor.x];
                 double explorationBonus = isUnexplored ? 10.0 : 0.0;
 
-                // 2. Combine scores with configurable weights
+                // 2. Combine scores
                 double totalScore = (baseScore) + explorationBonus;
 
                 return (neighbor, totalScore);
